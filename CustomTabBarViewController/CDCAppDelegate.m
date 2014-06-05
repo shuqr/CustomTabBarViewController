@@ -7,6 +7,7 @@
 //
 
 #import "CDCAppDelegate.h"
+#import "CDCTabBarViewController.h"
 
 @implementation CDCAppDelegate
 
@@ -16,6 +17,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[CDCTabBarViewController alloc] initWithNibName:@"CDCTabBarViewController" bundle:nil];
+    
+    
     return YES;
 }
 

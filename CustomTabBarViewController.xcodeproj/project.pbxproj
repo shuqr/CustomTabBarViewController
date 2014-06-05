@@ -19,6 +19,15 @@
 		54DA5CBA18ED51BD00A7816C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DA5CA218ED51BD00A7816C /* UIKit.framework */; };
 		54DA5CC218ED51BD00A7816C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54DA5CC018ED51BD00A7816C /* InfoPlist.strings */; };
 		54DA5CC418ED51BD00A7816C /* CustomTabBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA5CC318ED51BD00A7816C /* CustomTabBarViewControllerTests.m */; };
+		54DA5CD018ED56D300A7816C /* CDCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA5CCE18ED56D300A7816C /* CDCTabBarViewController.m */; };
+		54DA5CD118ED56D300A7816C /* CDCTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DA5CCF18ED56D300A7816C /* CDCTabBarViewController.xib */; };
+		54DA5CD418ED572C00A7816C /* CDCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA5CD318ED572B00A7816C /* CDCTabBar.m */; };
+		54DA5CDB18EE667500A7816C /* CDCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA5CD918EE667500A7816C /* CDCHomeViewController.m */; };
+		54DA5CDC18EE667500A7816C /* CDCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DA5CDA18EE667500A7816C /* CDCHomeViewController.xib */; };
+		54DA5CE218EE94F400A7816C /* TabBar.json in Resources */ = {isa = PBXBuildFile; fileRef = 54DA5CE118EE94F400A7816C /* TabBar.json */; };
+		54DA5CE518EE979F00A7816C /* CDCTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA5CE418EE979F00A7816C /* CDCTabBarItemModel.m */; };
+		54DA5CE818EE9B1400A7816C /* CDCTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA5CE718EE9B1400A7816C /* CDCTabBarModel.m */; };
+		54E548B0193DC5E500B38221 /* CDCTabBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54E548AF193DC5E500B38221 /* CDCTabBar.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,20 @@
 		54DA5CBF18ED51BD00A7816C /* CustomTabBarViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTabBarViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		54DA5CC118ED51BD00A7816C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54DA5CC318ED51BD00A7816C /* CustomTabBarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewControllerTests.m; sourceTree = "<group>"; };
+		54DA5CCD18ED56D300A7816C /* CDCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCTabBarViewController.h; path = CustomTabBarViewController/CDCTabBarViewController.h; sourceTree = "<group>"; };
+		54DA5CCE18ED56D300A7816C /* CDCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCTabBarViewController.m; path = CustomTabBarViewController/CDCTabBarViewController.m; sourceTree = "<group>"; };
+		54DA5CCF18ED56D300A7816C /* CDCTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CDCTabBarViewController.xib; path = CustomTabBarViewController/CDCTabBarViewController.xib; sourceTree = "<group>"; };
+		54DA5CD218ED572B00A7816C /* CDCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCTabBar.h; path = CustomTabBarViewController/CDCTabBar.h; sourceTree = "<group>"; };
+		54DA5CD318ED572B00A7816C /* CDCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCTabBar.m; path = CustomTabBarViewController/CDCTabBar.m; sourceTree = "<group>"; };
+		54DA5CD818EE667500A7816C /* CDCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCHomeViewController.h; sourceTree = "<group>"; };
+		54DA5CD918EE667500A7816C /* CDCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCHomeViewController.m; sourceTree = "<group>"; };
+		54DA5CDA18EE667500A7816C /* CDCHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDCHomeViewController.xib; sourceTree = "<group>"; };
+		54DA5CE118EE94F400A7816C /* TabBar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TabBar.json; sourceTree = "<group>"; };
+		54DA5CE318EE979F00A7816C /* CDCTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCTabBarItemModel.h; sourceTree = "<group>"; };
+		54DA5CE418EE979F00A7816C /* CDCTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCTabBarItemModel.m; sourceTree = "<group>"; };
+		54DA5CE618EE9B1400A7816C /* CDCTabBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCTabBarModel.h; sourceTree = "<group>"; };
+		54DA5CE718EE9B1400A7816C /* CDCTabBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCTabBarModel.m; sourceTree = "<group>"; };
+		54E548AF193DC5E500B38221 /* CDCTabBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CDCTabBar.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +100,20 @@
 		54DA5C9218ED51BC00A7816C = {
 			isa = PBXGroup;
 			children = (
+				54DA5CE918F3D38E00A7816C /* Resource */,
+				54DA5CE618EE9B1400A7816C /* CDCTabBarModel.h */,
+				54DA5CE718EE9B1400A7816C /* CDCTabBarModel.m */,
+				54DA5CE318EE979F00A7816C /* CDCTabBarItemModel.h */,
+				54DA5CE418EE979F00A7816C /* CDCTabBarItemModel.m */,
+				54DA5CCD18ED56D300A7816C /* CDCTabBarViewController.h */,
+				54DA5CCE18ED56D300A7816C /* CDCTabBarViewController.m */,
+				54DA5CCF18ED56D300A7816C /* CDCTabBarViewController.xib */,
+				54DA5CD218ED572B00A7816C /* CDCTabBar.h */,
+				54DA5CD318ED572B00A7816C /* CDCTabBar.m */,
+				54DA5CE118EE94F400A7816C /* TabBar.json */,
+				54DA5CD818EE667500A7816C /* CDCHomeViewController.h */,
+				54DA5CD918EE667500A7816C /* CDCHomeViewController.m */,
+				54DA5CDA18EE667500A7816C /* CDCHomeViewController.xib */,
 				54DA5CA418ED51BD00A7816C /* CustomTabBarViewController */,
 				54DA5CBD18ED51BD00A7816C /* CustomTabBarViewControllerTests */,
 				54DA5C9D18ED51BC00A7816C /* Frameworks */,
@@ -142,6 +179,14 @@
 				54DA5CC018ED51BD00A7816C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54DA5CE918F3D38E00A7816C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				54E548AF193DC5E500B38221 /* CDCTabBar.bundle */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DA5CDC18EE667500A7816C /* CDCHomeViewController.xib in Resources */,
 				54DA5CA918ED51BD00A7816C /* InfoPlist.strings in Resources */,
+				54E548B0193DC5E500B38221 /* CDCTabBar.bundle in Resources */,
+				54DA5CE218EE94F400A7816C /* TabBar.json in Resources */,
+				54DA5CD118ED56D300A7816C /* CDCTabBarViewController.xib in Resources */,
 				54DA5CB118ED51BD00A7816C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DA5CD418ED572C00A7816C /* CDCTabBar.m in Sources */,
 				54DA5CAB18ED51BD00A7816C /* main.m in Sources */,
+				54DA5CD018ED56D300A7816C /* CDCTabBarViewController.m in Sources */,
+				54DA5CE818EE9B1400A7816C /* CDCTabBarModel.m in Sources */,
 				54DA5CAF18ED51BD00A7816C /* CDCAppDelegate.m in Sources */,
+				54DA5CDB18EE667500A7816C /* CDCHomeViewController.m in Sources */,
+				54DA5CE518EE979F00A7816C /* CDCTabBarItemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -347,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -361,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomTabBarViewController/CustomTabBarViewController-Prefix.pch";
 				INFOPLIST_FILE = "CustomTabBarViewController/CustomTabBarViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomTabBarViewController/CustomTabBarViewController-Prefix.pch";
 				INFOPLIST_FILE = "CustomTabBarViewController/CustomTabBarViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +494,7 @@
 				54DA5CC918ED51BD00A7816C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54DA5CCA18ED51BD00A7816C /* Build configuration list for PBXNativeTarget "CustomTabBarViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +503,7 @@
 				54DA5CCC18ED51BD00A7816C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

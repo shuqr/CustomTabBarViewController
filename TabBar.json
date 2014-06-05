@@ -1,0 +1,51 @@
+{
+    "tabBarItems" : [
+        {
+            "title" : "菜单",
+            "title_selected" : "AAA",
+            "image" : "tab1",
+            "image_selected" :"",
+            "root_class" :"CDCHomeViewController",
+        },
+        {
+            "title" : "菜单",
+            "title_selected" : "BBB",
+            "image" : "tab2",
+            "image_selected" :"",
+            "root_class" :"CDCHomeViewController",
+        },
+        {
+            "title" : "菜单",
+            "title_selected" : "CCC",
+            "image" : "tab3",
+            "image_selected" :"",
+            "root_class" :"CDCHomeViewController",
+        },
+        {
+            "title" : "菜单",
+            "title_selected" : "DDD",
+            "image" : "tab4",
+            "image_selected" :"",
+            "root_class" :"CDCHomeViewController",
+        },
+        {
+            "title" : "菜单",
+            "title_selected" : "EEE",
+            "image" : "tab5",
+            "image_selected" :"",
+            "root_class" :"CDCHomeViewController",
+         },
+         {
+         "title" : "菜单",
+         "title_selected" : "FFF",
+         "image" : "tab5",
+         "image_selected" :"",
+         "root_class" :"CDCHomeViewController",
+         },
+    ],
+    "moreBar" : {
+        "leftBarImage" : "tab6",
+        "rightBarImage" : "tab7"
+    },
+    "defaultTheme" : "CDCTabBar.bundle/"
+}
