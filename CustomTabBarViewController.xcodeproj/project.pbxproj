@@ -28,6 +28,7 @@
 		54DA5CE518EE979F00A7816C /* CDCTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA5CE418EE979F00A7816C /* CDCTabBarItemModel.m */; };
 		54DA5CE818EE9B1400A7816C /* CDCTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA5CE718EE9B1400A7816C /* CDCTabBarModel.m */; };
 		54E548B0193DC5E500B38221 /* CDCTabBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54E548AF193DC5E500B38221 /* CDCTabBar.bundle */; };
+		54E548B41940722600B38221 /* CDCTarBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 54E548B31940722600B38221 /* CDCTarBar.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		54DA5CE618EE9B1400A7816C /* CDCTabBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCTabBarModel.h; sourceTree = "<group>"; };
 		54DA5CE718EE9B1400A7816C /* CDCTabBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCTabBarModel.m; sourceTree = "<group>"; };
 		54E548AF193DC5E500B38221 /* CDCTabBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CDCTabBar.bundle; sourceTree = "<group>"; };
+		54E548B31940722600B38221 /* CDCTarBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CDCTarBar.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		54DA5C9218ED51BC00A7816C = {
 			isa = PBXGroup;
 			children = (
+				54E548B31940722600B38221 /* CDCTarBar.podspec */,
 				54DA5CE918F3D38E00A7816C /* Resource */,
 				54DA5CE618EE9B1400A7816C /* CDCTabBarModel.h */,
 				54DA5CE718EE9B1400A7816C /* CDCTabBarModel.m */,
@@ -268,6 +271,7 @@
 				54DA5CDC18EE667500A7816C /* CDCHomeViewController.xib in Resources */,
 				54DA5CA918ED51BD00A7816C /* InfoPlist.strings in Resources */,
 				54E548B0193DC5E500B38221 /* CDCTabBar.bundle in Resources */,
+				54E548B41940722600B38221 /* CDCTarBar.podspec in Resources */,
 				54DA5CE218EE94F400A7816C /* TabBar.json in Resources */,
 				54DA5CD118ED56D300A7816C /* CDCTabBarViewController.xib in Resources */,
 				54DA5CB118ED51BD00A7816C /* Images.xcassets in Resources */,
